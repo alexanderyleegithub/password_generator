@@ -1,4 +1,5 @@
 #Version 1.2
+#https://github.com/alexanderyleegithub
 #Alexander Lee
 #User sets the # of characters and this generates a password 
 #the password will have at least 1 char from lowercase, uppercase, number, and symbol 
