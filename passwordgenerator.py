@@ -33,9 +33,9 @@ def finalpassword(length):
 	if int(length) > 4:
 	    possiblechars = string.ascii_lowercase + string.ascii_uppercase + string.digits + "!@#$%^&+" #all possible characters
 	    remainingchars = "".join((random.choice(possiblechars)) for x in range(remaininglength)) #creates a string based on remaining length of chars 
-	    finalpassword = (atleast1ofeachlist) + list(remainingchars) #puts all values as a list and into variable "finalpassword"
-	    random.shuffle(finalpassword) #shuffles the "finalpassword" so the initial 4 will not have same characters
-	    shuffledfinalpassword = "".join(finalpassword)
+	    combinedpassword = (atleast1ofeachlist) + list(remainingchars) #puts all values as a list and into variable "finalpassword"
+	    random.shuffle(combinedpassword) #shuffles the "finalpassword" so the initial 4 will not have same characters
+	    shuffledfinalpassword = "".join(combinedpassword)
 	    print "This is your password %s" %shuffledfinalpassword
 	#Lines 41-43 prints the shuffled initial 4
 	else:
