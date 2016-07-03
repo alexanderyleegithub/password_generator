@@ -37,7 +37,6 @@ def finalpassword(length):
 	else:
 	    print "This is your password %s" %"".join(atleast1ofeachlist)
 
-# need to shuffle initial 4 characters
 
 	
 #The following 3 lines shuffles a string
