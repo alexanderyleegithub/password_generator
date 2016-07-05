@@ -69,3 +69,5 @@ while True:
 
     else:
 	    print "Not a digit, please try again"
+
+# quit() code goes somewhere here
